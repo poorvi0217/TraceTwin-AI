@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Secrets (never commit these)
+.env
+
+# Files the agent creates while running
+**/sample-data/backup.json
