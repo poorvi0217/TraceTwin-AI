@@ -1,4 +1,5 @@
 package com.tarceTwin.backend.agent;
 
-public class LlmClient {
+public interface LlmClient {
+    String complete(String systemPrompt, String userPrompt);
 }
